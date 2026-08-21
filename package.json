@@ -1,0 +1,18 @@
+{
+  "name": "panda-douyin-creator-scraper",
+  "version": "8.2.0",
+  "private": true,
+  "description": "Tampermonkey userscript for collecting visible work metrics from Douyin Creator Center.",
+  "scripts": {
+    "check": "node --check panda-douyin-creator-scraper.user.js",
+    "test": "npm run check && node tests/test-userscript-core.cjs panda-douyin-creator-scraper.user.js"
+  },
+  "keywords": [
+    "douyin",
+    "tampermonkey",
+    "userscript",
+    "creator-center"
+  ],
+  "author": "熊猫 / GoodWay0223",
+  "license": "MIT"
+}

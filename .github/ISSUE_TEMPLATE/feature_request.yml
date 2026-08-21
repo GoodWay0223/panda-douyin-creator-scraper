@@ -1,0 +1,33 @@
+name: 功能建议
+description: 提议新的抓取、筛选、显示或导出能力
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决的问题
+      description: 请描述当前工作流中的具体不便。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 请说明理想的操作方式和预期结果。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 已尝试的替代方式
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 安全边界
+      options:
+        - label: 该建议不要求自动编辑、删除、修改权限或发布抖音作品。
+          required: true
